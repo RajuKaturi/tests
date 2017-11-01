@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class LargestSubsetSum
 {
-	static long[] LargestSubsetSum(int[] n)
+	static long[] LargestSubset(int[] n)
 	{
 	       long max_sum=0; 
 	       long[] ans = new long[n.length];
