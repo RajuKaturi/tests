@@ -35,7 +35,7 @@ public class LargestSubsetSum
     for (int i = 0; i < input.length; i++) {
         input[i] = in.nextInt();
     }
-    long ans[] =maxSubsetSum(input);
+    long ans[] =LargestSubset(input);
     for(int row = 0;row<ans.length;row++)
     System.out.println(ans[row]);
 	
